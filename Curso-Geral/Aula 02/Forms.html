@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms 01</title>
+</head>
+<body>
+    <form action="salvar" method="post">
+        <fieldset>
+            <legend> Dados Pessoais</legend>
+            <label>Name</label>
+            <br>
+            <input type="text">
+            <br>
+            
+            <label for="">email</label>
+            <br>
+            <input type="email">
+            <br>
+            
+            <label>Telefone</label>
+            <br>
+            <input type="tel">
+            <br>
+            
+            <label>idade</label>
+            <br>
+            <input type="number">
+            <br>
+            
+            <label>Senha</label>
+            <br>
+            <input type="password" required>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Beneficios</legend>
+            <label>
+                <input type="checkbox" name="Saude" id=""> Unimed
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="Saude" id=""> Uniodonto
+            </label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Alimentação</legend>
+            <label>
+                <input type="radio" name="Alimentação" id=""> Cartão Refeição
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Alimentação" id=""> Cartão Alimentação
+            </label>
+            <br>
+        </fieldset>
+    </form>
+</body>
+</html>
