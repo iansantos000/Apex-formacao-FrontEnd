@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+    border-top: 12px solid blue;
+    border-left: 12px solid red;
+    border-bottom: 12px solid yellow;
+    border-right: 12px solid green;
+    box-shadow: 5px 5px 15px rgba(255,0,0,0.8)
+}
+
+.box {
+    box-sizing: content-box;
+}
+
+.padding {
+    box-sizing: padding-box;
+}
+
+.border {
+    box-sizing: border-box;
+}

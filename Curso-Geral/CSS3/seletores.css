@@ -1,0 +1,57 @@
+
+* {
+    font-family: 'Open-Sans';
+}
+
+p::first-letter {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: cadetblue;
+}
+
+p[name] {
+    color:blue;
+}
+p[name=title] {
+    color:blue;
+}
+
+p[name~=impar] {
+    color:gold;
+}
+p[name|=par] {
+    color: fuchsia;
+}
+
+p .aula {
+    font-weight: 900;
+}
+
+p:hover, fieldset:hover {
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aula {
+    color: blue;
+}
+.aula2 {
+    color: green
+}
+
+#dados-label { 
+    font-family: 'Open-Sans';
+    font-weight: 700;
+    color: red;
+}
+
+.container > label {
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.container  .sub-container > label + h4 {
+    color: blueviolet;
+}
+
+
