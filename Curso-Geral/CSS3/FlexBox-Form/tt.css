@@ -1,0 +1,39 @@
+input [type=text] {
+    width: 336px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #b9b9b9;
+  }
+
+input [type=text]::placeholder {
+  font-family: OpenSans;
+  font-size: 14px;
+  letter-spacing: normal;
+  color: #929292;
+}
+
+  select {
+    width: 336px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #b9b9b9;
+  }
+
+  input [type=checkbox] {
+    width: 10px;
+    height: 8px;
+    background-color: #ffffff;
+  }
+  input [type=radio] {
+    width: 11px;
+    height: 10px;
+    background-color: #359be0;
+  }
+
+  input [type=button] {
+    width: 165px;
+    height: 44px;
+    
+  }

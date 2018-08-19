@@ -1,0 +1,139 @@
+body {}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fieldset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid;
+
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    align-self: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    margin: 10px 5px;
+    background-color: #eee;
+   
+}
+
+.input-group  select {
+    margin-left: 5px;
+}
+
+.input-group-icon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+
+.col-20 {
+    width: 22.5%;
+}
+
+.div-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+button {
+    width: 165px;
+    height: 44px;
+    border-radius: 100px;
+    border-width: 2.5px;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+    font-family: Roboto;
+    font-size: 14;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+button:last-child {
+    margin-right: 0px;
+}
+
+button:activate {
+    opacity: 0.7;
+}
+
+.btn-novo {
+    border: solid 2.5px #4eb6ff;
+}
+
+.btn-salvar {
+    background-color: #13cb65;
+    border: none;
+    color: #fff;
+}
+
+.btn-excluir {
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+
+/*
+@media (max-width: 600px) {
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 5px;
+    }
+    .col-20 {
+        width: 100%;
+    }
+}  @media (max-width: 600px)  */

@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: solid black
+}
+
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
